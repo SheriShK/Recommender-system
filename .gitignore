@@ -1,0 +1,26 @@
+# Виртуальные окружения
+venv/
+env/
+recommender_clean/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Данные и модели
+data/*.pkl
+data/*.npz
+*.csv
+*.json
+*.png
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
