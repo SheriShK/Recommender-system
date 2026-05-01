@@ -1,0 +1,61 @@
+Лучшие параметры (валидация time-based, combined = 0.5*R@10+0.3*NDCG@10+0.2*P@10)
+{
+  "ItemKNN": {
+    "model": "ItemKNN",
+    "K": 10,
+    "approximate_similarities": true,
+    "num_threads": 4,
+    "k1": "",
+    "b": "",
+    "val_precision_10": 0.016666666666666666,
+    "val_recall_10": 0.08333333333333333,
+    "val_ndcg_10": 0.029539881130674624,
+    "val_combined": 0.053861964339202394
+  },
+  "BM25": {
+    "model": "BM25",
+    "K": 10,
+    "k1": 0.5,
+    "b": 0.5,
+    "approximate_similarities": "",
+    "num_threads": 8,
+    "val_precision_10": 0.016666666666666666,
+    "val_recall_10": 0.08333333333333333,
+    "val_ndcg_10": 0.029539881130674624,
+    "val_combined": 0.053861964339202394
+  },
+  "TFIDF": {
+    "model": "TFIDF",
+    "K": 10,
+    "k1": "",
+    "b": "",
+    "approximate_similarities": "",
+    "num_threads": 8,
+    "val_precision_10": 0.016666666666666666,
+    "val_recall_10": 0.08333333333333333,
+    "val_ndcg_10": 0.029539881130674624,
+    "val_combined": 0.053861964339202394
+  }
+}
+
+Фолды CV:
+[
+  {
+    "fold": 1,
+    "offset": 0,
+    "train_events": 726381,
+    "val_events": 242127
+  },
+  {
+    "fold": 2,
+    "offset": 100886,
+    "train_events": 665849,
+    "val_events": 221950
+  },
+  {
+    "fold": 3,
+    "offset": 201772,
+    "train_events": 605317,
+    "val_events": 201773
+  }
+]

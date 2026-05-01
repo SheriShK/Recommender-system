@@ -1,0 +1,10 @@
+2026-04-30 20:15:29,792 [INFO] ItemKNN early stop: approx=True threads=4 после K без улучшения 3
+2026-04-30 20:15:42,360 [INFO] ItemKNN early stop: approx=True threads=8 после K без улучшения 3
+2026-04-30 20:15:54,820 [INFO] ItemKNN early stop: approx=False threads=4 после K без улучшения 3
+2026-04-30 20:16:07,643 [INFO] ItemKNN early stop: approx=False threads=8 после K без улучшения 3
+2026-04-30 20:17:54,748 [INFO] Сохранено data\grid_search_results.csv
+2026-04-30 20:18:50,758 [INFO] Графики сохранены в data\tuning_plots
+2026-04-30 20:18:50,765 [INFO] Сохранена модель ItemKNN → data\best_itemknn.pkl
+2026-04-30 20:18:50,772 [INFO] Сохранена модель BM25 → data\best_bm25.pkl
+2026-04-30 20:18:50,780 [INFO] Сохранена модель TFIDF → data\best_tfidf.pkl
+2026-04-30 20:18:50,781 [INFO] Отчёт: data\hyperparameter_tuning_report.txt

@@ -1,26 +1,30 @@
-# Виртуальные окружения
-venv/
-env/
-recommender_clean/
+# Python
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python
 
-# Данные и модели
+# Модели (их нужно переобучать под конкретные данные)
+*.pkl
+*.npz
+
+# Сырые данные (они скачиваются отдельно)
+archive/
+avito_data/
 data/*.pkl
 data/*.npz
-*.csv
-*.json
-*.png
 
-# IDE и редакторы
+# Но оставляем результаты экспериментов
+!data/*.csv
+!data/*.png
+!data/*.txt
+!data/*.json
+!data/*.log
+
+# Логи и временные файлы
+*.log
+.tmp/
+
+# IDE
 .vscode/
 .idea/
 *.swp
-*.swo
-
-# ОС
-.DS_Store
-Thumbs.db

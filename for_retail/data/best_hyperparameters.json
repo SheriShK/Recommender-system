@@ -1,0 +1,16 @@
+{
+  "ALS": {
+    "factors": 50,
+    "iterations": 10,
+    "regularization": 0.01
+  },
+  "BPR": {
+    "factors": 20,
+    "iterations": 10,
+    "learning_rate": 0.005
+  },
+  "ItemKNN": {
+    "k_neighbors": 10
+  },
+  "recommend_filter": "all_train"
+}
